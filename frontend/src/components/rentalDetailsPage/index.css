@@ -1,0 +1,75 @@
+/* index.css */
+.confirmation-form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 25px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.confirmation-form-container:hover {
+    transform: scale(1.03);
+}
+
+.confirmation-form-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #222;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.confirmation-details {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.confirmation-details p {
+    font-size: 1.1rem;
+    color: #444;
+    margin: 12px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.confirmation-details p span.label {
+    font-weight: bold;
+    color: #333;
+}
+
+.confirmation-details p span.value {
+    color: #007BFF;
+    font-weight: 500;
+}
+
+.rental-code {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #007BFF;
+    margin: 25px 0;
+    text-align: center;
+}
+
+.return-home-button {
+    padding: 12px 30px;
+    background: #333;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2), -3px -3px 8px rgba(255, 255, 255, 0.2);
+}
+
+.return-home-button:hover {
+    background: #555;
+    transform: scale(1.05);
+}

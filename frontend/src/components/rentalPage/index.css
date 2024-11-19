@@ -1,0 +1,86 @@
+/* Main container styling */
+.rental-page-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+/* Heading styling */
+.rental-page-heading {
+    font-size: 24px;
+    color: #343a40;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Content layout for side-by-side display */
+.rental-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Cycle details styling */
+.cycle-details {
+    flex: 1;
+    font-size: 18px;
+    color: #495057;
+}
+
+.cycle-details img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+/* Form styling */
+.rental-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rental-form label {
+    font-size: 16px;
+    color: #495057;
+    display: block;
+}
+
+.rental-form input {
+    color: black;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.rent-button {
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.rent-button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.rent-message {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #17a2b8;
+    text-align: center;
+}

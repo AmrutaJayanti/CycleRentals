@@ -1,0 +1,44 @@
+.h2_color {
+    color : white;
+    text-align : center;
+}
+.cycle-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: center; 
+    padding: 20px;
+}
+
+.cycle-card {
+    display : flex;
+    color:rgb(12, 8, 127);
+    justify-content:space-between;
+    background-color: white; 
+    border-radius: 10px; 
+    padding: 20px; 
+    width: 1000px;
+    box-shadow: 0 4px 8px rgba(216, 211, 211, 0.773); 
+}
+
+.cycle-card h3 {
+    margin: 10px; 
+}
+
+.cycle-card p {
+    color : rgb(155, 22, 115);
+    margin: 10px; 
+}
+
+.cycle-card button {
+    background-color: #007BFF; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px; 
+    cursor: pointer; 
+}
+
+.cycle-card button:hover {
+    background-color: #0056b3; 
+}

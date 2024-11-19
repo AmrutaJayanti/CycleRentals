@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f2f5;
+
+}
+
+#overall {
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    width: 30vw;
+    padding: 20px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(4px); /* Stronger glass effect */
+    text-align: center;
+    color: #fff; 
+}
+
+form {
+    padding: 2rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    font-size: 100%;
+    text-align: left;
+    color: #fff; 
+}
+
+input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem !important;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    font-size: 100%;
+    color: #fff; /* Input text color */
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7); 
+}
+
+button {
+    width: 100%;
+    padding: 0.75rem;
+    background: linear-gradient(135deg, #1f72a2, #c2185b); 
+    color: white ;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #1b6b9a, #ad1457); 
+}
+
+button:active {
+    background: linear-gradient(135deg, #003572, #880e4f); 
+    transform: translateY(2px); 
+}
+
+form {
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+    margin-bottom: 0px;
+    padding-bottom: 1px;
+}
+
+a {
+    color:rgb(0, 183, 255); 
+    font-size: 1rem;
+}
+
+a:hover {
+    color: #ff26ed;
+}
+
+p {
+    padding-bottom: 0.2rem;
+    font-size: 1rem;
+    color: #e61515; 
+    font-weight:0.5em;
+}
+
+
+div {
+
+    text-align: center;
+}
+#new{
+    padding-top: 0.5rem;
+}
