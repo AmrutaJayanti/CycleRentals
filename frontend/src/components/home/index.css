@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif; /* Modern, elegant font */
+    background-color: #f0f4f8; /* Light background for elegance */
+    color: #333;
+    
+}
+.main {
+    width: 80%;
+    margin: 5% auto;
+}
+
+/* Navigation Bar */
+.nav-bar {
+    display: flex;
+    padding: 0px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    position: fixed;
+    width: 80%;
+    top:0%;
+    z-index: 1000;
+    margin-left: 0%;
+    height: 15%;
+    font-size:xx-large;
+    
+
+}
+
+.nav-bar-ul {
+    margin-top: 3%;
+    margin-left: 30%;
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.nav-bar-li {
+    margin: 0 25px;
+    font-size: medium;
+}
+
+.nav-bar-a {
+    text-decoration: none;
+    font-size: 150%;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+    font-weight: 500;
+}
+
+
+.nav-bar-a:hover {
+    text-decoration: underline;
+    text-shadow: 0px 1px 4px rgba(0, 155, 182, 0.7);
+}
+#title{
+    color:rgb(232, 5, 179);
+    margin-bottom: 2%;
+}
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+    padding: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); 
+    background-color: transparent; 
+}
+
+.home-content {
+    flex: 1;
+    padding: 30px;
+    color:rgb(255,255,255);
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Elegant shadow */
+    text-align: left;
+    color: #333;
+}
+
+.home-header-h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #0077b6;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.home-header-p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.home-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.home-image-img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 6px 25px rgba(0, 0, 0, 0.15); /* Soft shadow */
+}
+
+@media (max-width: 768px) {
+    .nav-bar-ul {
+        flex-direction: column;
+        margin-left: 0;
+        align-items: center;
+    }
+    .nav-bar-li {
+        margin: 15px 0;
+    }
+}
+
+.image1{
+    height:40px;
+    width:30px;
+    margin-top:32px;
+    margin-right:2px;
+}
+
+.logoh1{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    margin-left:3%;
+}

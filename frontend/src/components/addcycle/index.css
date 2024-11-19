@@ -1,0 +1,93 @@
+/* Main container styling */
+.add-cycle-container {
+    min-width: 500px;
+    margin: auto;
+    padding: 30px;
+    padding-right:50px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.add-cycle-container h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Form styling */
+.add-cycle-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding:20px;
+}
+
+.form-group {
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    color: #495057;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Submit button with gradient */
+.submit-button {
+    width: 100%;
+    padding: 0.75rem;
+    background: linear-gradient(135deg, #1f72a2, #c2185b); 
+    color: white ;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-button:hover {
+    background: linear-gradient(135deg, #5a0ecb, #1a5afc);
+}
+
+/* Message styling */
+.message {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #17a2b8;
+}
+
+.buttonalign{
+    text-align:center;
+}
+
+/* Responsive styling */
+@media (mix-width: 1000px) {
+    .add-cycle-container {
+        width: 90%;
+        padding: 20px;
+    }
+}
